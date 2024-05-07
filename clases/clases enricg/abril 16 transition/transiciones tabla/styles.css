@@ -1,0 +1,52 @@
+h1, footer{
+    text-align: center;
+}
+
+.container{
+    border: 1px solid black;
+    width: 600px;
+    height: 100%;
+}
+
+.caja{
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    transition-delay: 1s;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+}
+
+.caja:hover{
+    background-color: red;
+    color: blue;
+    transform: translateX(400px);
+}
+
+table{
+    text-align: center;
+}
+
+td{
+    border: 1px solid black;
+}
+
+td:last-child{
+    opacity: 0;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+td:last-child:hover{
+    opacity: 100;
+    background-image: url(./imágenes/estrellita.gif);
+    background-size:60%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    color: red;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}

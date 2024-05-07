@@ -1,0 +1,164 @@
+/* genéricos */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction:column;
+    font-family: arial, sans-serif;
+}
+
+ul, li {
+    display: inline;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* HEADER (Encabezado) */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+header button {
+    padding: 9px 23px;
+    background-color: blue;
+    border-radius: 4px;
+    font-size: 14px;
+    color:azure;
+    cursor: pointer;
+}
+
+header button:hover {
+    box-shadow: 0 1px 3px 1px gray;
+}
+
+/* apps */
+.apps {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 5px 7px;
+    text-align: center;
+}       
+
+.apps:hover {
+    cursor: pointer;
+    background-color: gainsboro
+}
+
+.img-apps {
+    width: 275px;
+    position: absolute;
+    top: 55px;
+    right: 20px;
+    display: none;
+}
+.apps:hover + .img-apps {
+    display: block;
+}
+/* MAIN (Principal) */
+
+main{
+    flex-grow: 1;
+}
+
+main > div {
+    width:  500px;
+    margin: 90px auto;
+   text-align: center;
+}
+
+main img {
+    width: 250px;
+}
+
+/* buscador > navegador */
+
+.buscador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    padding: 8px 24px;
+    border: 1px solid gainsboro;
+    border-radius: 24px;    
+}
+
+.buscador:hover {
+    box-shadow: 0 1px 6px grey;
+}
+
+input {
+    width: 300px;
+    outline: 0; 
+    border: 0;
+}
+
+.buscador-1 {
+    margin: 20px 0;
+}
+
+.buscador-1 button {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.buscador-1 button:hover {
+    box-shadow: 0 1px 1px gainsboro;
+}
+
+.buscador-2 a {
+    margin: 4px;
+    color: blue;
+}
+
+/* FOOTER (Pie de página) */
+
+footer {
+    font-size: 13px;
+    background-color: white;
+}
+
+.top {
+    padding: 10px 20px;
+    border-bottom: 1px solid white;
+}
+
+.bottom {
+    padding: 10px 20px;
+}
+
+.bottom nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom img {
+    width: 15px;
+}

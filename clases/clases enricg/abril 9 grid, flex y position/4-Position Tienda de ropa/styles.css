@@ -1,0 +1,45 @@
+.contenedor {
+    position: relative;
+    background-color: blueviolet;
+
+}
+
+header {
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(139, 116, 161);
+}
+
+nav {
+    position: fixed;
+    background-color: rgb(129, 129, 209);
+    width: 300px;
+    height: 400px;
+    ;
+}
+
+main {
+    background-color: fuchsia;
+    width: 400px;
+    position: absolute;
+    left: 300px;
+    width: 900px;
+    }
+
+aside {
+    position: absolute;
+    background-color: rgb(129, 73, 101);
+    width: 300px;
+    left: 1200px;
+    top: 400px;
+    height: 600px;
+}
+
+footer {
+   position: absolute;
+   top: 1000px;
+   width: 1500px;
+   background-color: sandybrown;
+    text-align: center;
+
+}

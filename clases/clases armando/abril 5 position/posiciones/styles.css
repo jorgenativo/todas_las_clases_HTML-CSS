@@ -1,0 +1,38 @@
+.cajaRoja {
+    width: 100px;
+    height: 800px;
+    background-color: red;
+    
+}
+.caja{ 
+    width: 100px;
+    height: 50px;
+    background-color: grey;
+
+}
+.cajaFija {
+    top: 100px;
+    position: fixed;
+}
+
+.cajaRelativa {
+    position: relative;
+    left: 200px;
+    top: -800px;
+}
+.cajaAbsoluta{
+    width: 200px;
+    height:200px;
+    position: absolute;
+    left: 400px;
+    top: 80px;}
+
+.redonda{
+    position: absolute;
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    top: 100px;
+    left: -200px;
+    border-radius: 45%;
+}

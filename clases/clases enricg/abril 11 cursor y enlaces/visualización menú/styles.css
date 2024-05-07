@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+}
+nav {
+    font-family:sans-serif
+    font-size: 14pt;
+    display: block;
+    width: 220px;
+}
+.menu {
+    display: inline;
+}
+.item {
+    display: block;
+    position: relative;
+    background-color:lightslategrey;
+    border-bottom: 2px solid ;
+    border-left: 6px solid bisque;
+}
+.item a {
+    display: inline-block;
+    text-decoration: none;
+    color:floralwhite;
+    padding: 16px;
+    width: 100% - 32px;
+}
+.item:hover {
+    background-color:bisque;
+}
+.item > .menu {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 184px;
+}
+.item .item {
+    width: 230px;
+    border-left: 6px solid bisque;
+
+}
+.item:hover > .menu {
+    display: block;
+}

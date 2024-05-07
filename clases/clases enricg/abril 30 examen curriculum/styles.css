@@ -1,0 +1,169 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    background-color: beige;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+header {
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 50px;
+    align-items: center;
+   
+    
+}
+h2 {
+    position: fixed;
+    margin: 10px;
+    margin-top: 60px;
+    color: green;
+}
+img {
+    position: fixed;
+    width: 200px;
+    height: 260px;
+    margin: 50px;
+    margin-top: 100px;
+}
+img:hover {
+    width: 95px;
+    height: 115px;
+    border: 1px solid black;
+    border-radius: 20%;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 1px 1px 10px green;
+    top: 150px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 0%;
+    margin-right: 30%;
+    color: black;
+    font-size: 15px;
+    width: 70%;
+    height: 100%;
+}
+
+
+li {
+    list-style: none;
+}
+section {
+    background-color: darkkhaki;
+    border: 1px solid black;
+    width: 50%;
+    height: 75%;
+    color: black;
+}
+.aside3{
+    background-color: green;
+    border: 1px solid black;
+    width: 370px;
+    height: 50px;
+    top: 550px ;
+    left: 0px;
+}
+.aside2 {
+    background-color: green;
+    border: 1px solid black;
+    position: sticky;
+    bottom: 0;
+    margin-left: 70%;
+}
+aside {
+    position: fixed;
+    right: 300px;
+    top: 50px;
+}
+footer {
+    background-color: olive;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    list-style: none;
+
+}
+
+@keyframes uno {
+    0% {
+        left: 0;
+    }
+
+    25% {
+
+        bottom: 0;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    100% {
+        transform: rotate(90deg)
+    }
+}
+
+@keyframes dos {
+    0% {
+        right: 0;
+    }
+
+    25% {
+
+        bottom: 0;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    100% {
+        transform: rotate(90deg)
+    }
+}
+
+.cajaIzq {
+    animation-name: uno;
+    left: 580px;
+}
+
+.cajaDer {
+    animation-name: dos;
+    right: 580px
+}
+
+.caja {
+    width: 120px;
+    background-color: palegoldenrod;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+
+}
+@media screen and (max-width:626px) {
+    body {
+        width: 100%;
+    }
+
+
+}

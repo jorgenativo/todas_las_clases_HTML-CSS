@@ -1,0 +1,56 @@
+.container {
+    display: grid;
+    background-color: aqua;
+    grid-template-areas: 'cabecera cabecera cabecera cabecera cabecera cabecera'
+        'menú menú principal principal principal aside'
+        'menú menú principal principal principal aside'
+        'menú menú principal principal principal aside'
+        'pie pie pie pie pie pie';
+    height: 500px;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: auto;
+}
+
+    .item {
+        margin: 5px;
+
+
+    }
+
+    .foto {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    header {
+        background-color: blue;
+        grid-area: cabecera;
+
+    }
+
+    nav {
+        background-color: blueviolet;
+        grid-area: menú;
+        
+        
+
+
+    }
+
+    main {
+        background-color: darkgreen;
+        grid-area: principal;
+
+    }
+
+    aside {
+        background-color: darkgrey;
+        grid-area: aside;
+    }
+
+    footer {background-color: darksalmon;
+        grid-area: pie;
+
+    }

@@ -1,0 +1,98 @@
+/*  */
+header {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    width: 300px;
+    height: 500px;
+    border: 1px dotted black;
+    border-radius: 10%;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.titulo {
+    border-bottom: 1px dotted black;
+    height: 20%;
+    text-align: center;
+    align-content: center;
+
+}
+
+.cos {
+    height: 80%;
+    line-height: 1.5;
+}
+
+/*  :link / :visited / :active / :hover  */
+
+a:hover {
+    cursor: crosshair;
+}
+
+
+a:active {
+    background-color: red;
+}
+
+a:link{
+    font-size: large;
+    color: yellow;
+    text-decoration: none;
+}
+
+a:visited {
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+/* first-child / last-child */
+.cos2 p:first-child{
+    color: cornflowerblue;
+}
+
+.cos2 p:last-child{
+    color: red;
+} 
+
+/* first-of.type / last-of-type */
+.cos3 p:firts-of.type, cos3 span:first-of.type{
+    background-color: pink;
+}
+
+cos3 div:last-of-type{
+    background-color: orange;
+}
+/* nth-child(_) nth-lastchild(_) */
+li{
+    background-color: aqua;
+     
+}
+li:nth-child(2){
+   background-color: orange;
+   list-style: none;
+}
+li:nth-lastchild(3){
+    background-color: green;
+
+}
+/* nth-of-type(_) / nth-last-of-type(_) */
+
+
+
+/* :not */
+main .tarjeta:nth-child(9) .cos>:not(div){
+    background-color: cadetblue;
+
+
+}
+

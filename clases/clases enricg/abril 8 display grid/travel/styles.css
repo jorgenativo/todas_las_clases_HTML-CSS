@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkseagreen;
+    position: fixed;
+    width: 99%;
+}
+body {
+    background-color: bisque;
+    flex-direction: row;
+    width: 50%;
+    
+}
+nav{
+    border: 10px;
+   
+}
+div{display: flex;
+    flex-direction: row;
+    padding-top: 20px; ;
+    
+}
