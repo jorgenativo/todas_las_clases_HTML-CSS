@@ -1,22 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-left: -60px;
+}
+
+li{
+    display: inline;
+    margin-right: 20px;
+}
+
+a{
+    color:bisque;
+    text-decoration: none;
+}
+
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: darkseagreen;
-    position: fixed;
-    width: 99%;
+    width: 100%;
 }
+
 body {
     background-color: bisque;
-    flex-direction: row;
-    width: 50%;
-    
 }
-nav{
-    border: 10px;
-   
+
+main{
+    background-color: darkkhaki;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
-div{display: flex;
-    flex-direction: row;
-    padding-top: 20px; ;
+
+footer{
+    background-color: greenyellow;
+    width: 100%;
+    text-align: center;
+}
+#logoPe{
+    width: 50px;
+    height: 50px;
     
 }
