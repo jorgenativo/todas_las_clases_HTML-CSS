@@ -28,6 +28,6 @@ nav {
     
 }
 
-.item:hover >.menu {
+.item:hover >.menu  {
     display: block;
 }

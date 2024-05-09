@@ -3,11 +3,10 @@
     margin: 0;
 }
 body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
     background-color: aqua;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    border: 5px solid black;
 }
 h1{
     color: aqua;
@@ -16,72 +15,74 @@ h2{
     text-align: center;
 }
 header {
+    position: absolute;
     padding: 5px;
     background-color: rgb(139, 116, 161);
-    display: flex;
-    align-items: center;
+    width: 100%;
 }
+
 img{
-    width: 10%;
-    height: 10%;
-}
-.todas{
-    width: 25%;
-    height: 25%;
-}
-nav {
-    position: fixed;
-    background-color: rgb(129, 129, 209);
-    width: 200px;
+    width: 150px;
     height: 150px;
-    
+}
+
+nav {
+    background-color: rgb(129, 129, 209);
+    width: 155px;
+    height: 450px;
+    margin-top: 60px;
 }
 ul{
     list-style: none;
-    
+    margin: 0;
+    padding: 0;
 }
-
-main {
-    background-color: fuchsia;
-    position: relative;
-    width: 1000px;
-    height: 800px;
-    left: 200px;
-    
-}
-.caja1{
-    position: absolute;
-    top: 10px;
-    height: 100%;
-    margin-left: 50px;
-    display: flex;
-    flex-direction: row-reverse;
-}
-.caja2{
-    position: absolute;
-    top: 400px;
-    height: 100%;
-    margin-right: 50px;
-    display: flex;
-    
+a{
+    margin: 10px;
+    color: aliceblue;
 }
 aside {
     position: absolute;
     background-color: blueviolet;
-    width: 300px;
+    width: 200px;
     height: 800px;
-    top: 180px;
-    left: 1200px;
+    top: 270px;
     color: aliceblue;
     padding: 1%;
 }
-
+main {
+    position: relative;
+    background-color: fuchsia;
+    height: 1000px;
+    left: 200px;
+    margin-top: 240px;
+    margin-right: 200px;
+}
+article{
+    text-align: center;
+    margin: 100px;
+    padding: 50px;
+}
+.uno{
+    position: absolute;
+    top: 180px;
+    height: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.dos{
+    position: absolute;
+    top: 600px;
+    height: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
 footer {
    position: absolute;
-   top: 1000px;
-   width: 1500px;
+   top: 1100px;
+   width: 200px;
    background-color: sandybrown;
    text-align: center;
-   margin-top: auto;
+   
 
 }
