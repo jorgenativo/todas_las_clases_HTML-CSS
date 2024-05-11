@@ -38,9 +38,10 @@ h1{
     left: -46px;
     opacity: 0; /* Ocultem el submenu */
     /* Propietats de transició */
-    transition-duration: .6s;
-    transition-timing-function: linear;
-    transition-delay: .1s;
+    transition-duration: .8s;
+    transition-timing-function: ease-in;
+    transition-delay: .8s;
+    
 }
 
 /* Quan el cursor SI està a sobre un element, ES VISUALITZA el submenú */
