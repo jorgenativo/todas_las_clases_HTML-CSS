@@ -16,12 +16,12 @@ main{
     position: absolute;
     bottom: 0;
     animation-name: ejemplo;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-timing-function: linear;
 }
 
 .caja2{
-    bottom: 400px;
+    bottom: 450px;
     background-color: green;
     animation-duration: 10s;
 }

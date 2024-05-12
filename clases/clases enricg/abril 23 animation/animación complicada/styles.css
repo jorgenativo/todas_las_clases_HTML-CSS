@@ -1,117 +1,162 @@
-h1, footer{
+h1,
+footer {
     text-align: center;
 }
 
-main{
+main {
     width: 100%;
     height: 610px;
     border: 1px solid black;
     position: relative;
     background-color: blue;
+   
+    
 }
-.caja{
+
+.caja {
     width: 50px;
     height: 50px;
     background-color: yellow;
     position: absolute;
-    animation-timing-function: linear;
     text-align: center;
-    animation-duration: 5s;
     
-}    
+}
 
 
-.cajaIzq{
+.cajaIzq {
     animation-name: uno;
+    animation-duration: 4s;
+    animation-timing-function: linear;
     left: 821px;
 }
-.cajaDer{
+
+.cajaDer {
     animation-name: dos;
+    animation-duration: 4s;
+    animation-timing-function: linear;
     right: 821px
 }
 
-.caja1{
-    bottom:560px;
-} 
-.caja2{
-    bottom:520px;
-    
+.caja1 {
+    bottom: 560px;
 }
-.caja3{
-    bottom:480px;
-    
+
+.caja2 {
+    bottom: 520px;
 }
-.caja4{
-    bottom:440px;
-    
+
+.caja3 {
+    bottom: 480px;
 }
-.caja5{
-    bottom:400px;
-    
+
+.caja4 {
+    bottom: 440px;
 }
-.caja6{
-    bottom:360px;
-    
+
+.caja5 {
+    bottom: 400px;
 }
-.caja7{
-    bottom:320px;
-    
+
+.caja6 {
+    bottom: 360px;
 }
-.caja8{
-    bottom:280px;
-    
+
+.caja7 {
+    bottom: 320px;
 }
-.caja9{
-    bottom:240px;
-    
+
+.caja8 {
+    bottom: 280px;
 }
-.caja10{
-    bottom:200px;
-    
+
+.caja9 {
+    bottom: 240px;
 }
-.caja11{
-    bottom:160px;
-    
+
+.caja10 {
+    bottom: 200px;
 }
-.caja12{
-    bottom:120px;
-    
+
+.caja11 {
+    bottom: 160px;
 }
-.caja13{
-    bottom:80px;
-    
+
+.caja12 {
+    bottom: 120px;
 }
-.caja14{
-    bottom:40px;
-    
+
+.caja13 {
+    bottom: 80px;
 }
-.caja15{
-    bottom:0px;
-    
+
+.caja14 {
+    bottom: 40px;
 }
-@keyframes uno{
-    0%{left:0;}
-    25%{ 
-       
-        bottom:300px;
+
+.caja15 {
+    bottom: 0px;
+}
+
+@keyframes uno {
+    0% {
+        left: 0;
+        width: 5px;
+        height: 5px;
     }
-    
-    50%{background-color: red;}
-    75%{transform: rotate(90deg)}
-    
+
+    25% {
+        bottom: 300px;
+        width: 15px;
+        height: 15px;
+    }
+
+    50% {
+        background-color: red;
+        width: 25px;
+        height: 25px;
+    }
+
+    75% {
+        transform: rotate(360deg);
+        width: 35px;
+        height: 35px;
+    }
+
+    100% {
+        width: 50px;
+        height: 50px;
+    }
+
 }
 
-@keyframes dos{ 
-    0%{right:0;}
-    25%{ 
-        
-        bottom:300px;
+@keyframes dos {
+    0% {
+        right: 0;
+        width: 5px;
+        height: 5px;
+    }
+
+    25% {
+        bottom: 300px;
+        width: 15px;
+        height: 15px;
+    }
+
+    50% {
+        background-color: red;
+        width: 25px;
+        height: 25px;
+    }
+
+    75% {
+        transform: rotate(360deg);
+        width: 35px;
+        height: 35px;
+    }
+
+    100% {
+        width: 50px;
+        height: 50px;
+    }
+
 }
-
-50%{background-color: red;}
-75%{transform: rotate(90deg)}
-
-}
-
-
-

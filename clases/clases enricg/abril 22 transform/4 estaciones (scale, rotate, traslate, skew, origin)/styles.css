@@ -7,15 +7,17 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: brown;
+    background-color: burlywood;
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    background-color: blue;
+    background-color: darkseagreen;
     overflow: hidden;
+    
 }
+
 
 .tarjeta {
     width: 350px;
@@ -26,7 +28,7 @@ main {
     align-items: center;
     background-color: olive;
     border-radius: 30px;
-    transition: all 1s linear .5s;
+    
    
 }
 
@@ -48,26 +50,35 @@ main {
     cursor: pointer;
     text-align: center;
     margin: 30px;
+    
         
+    
 }
 
-/* .tarjeta1{
+.botón:hover ~.tarjeta1 .caja{
+    transform: scale(1.5);
     transition-duration: 2s;
+
 }
 
-.tarjeta2{
-transition-timing-function: ease-in;
+.botón:hover ~.tarjeta2 .caja{
+    transform: rotate(360deg);
+    transition-duration: 6s;
+    transition-timing-function: ease-in;
 }
 
-.tarjeta3{
-    transition-delay: 2s ;
+.botón:hover ~.tarjeta3 .caja{
+    transform: translate(60px,-80px);
+    transition-duration: 4s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
 }
 
-.tarjeta4{
-    transition-property: 2s ;
-} */
+.botón:hover ~ .tarjeta4 .caja{
+    transform: skew(50deg,-200deg);
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+    transition-delay: 1s;
+    transition-property: 10s ;
+} 
 
-.botón:hover +.tarjeta{
-    position: absolute;
-    top: 500px;
-}
