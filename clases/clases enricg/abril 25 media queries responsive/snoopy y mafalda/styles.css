@@ -2,16 +2,8 @@
     margin: 0;
 }
 
-footer,
-h1 {
+footer,h1 {
     text-align: center;
-}
-
-header,
-footer,
-a {
-    background-color: black;
-    color: white;
 }
 
 header {
@@ -48,7 +40,6 @@ a {
 img {
     height: 200px;
     margin: 10px;
-
 }
 
 p {
@@ -82,8 +73,11 @@ nav {
 
     .material-symbols-outlined {
         display: inline;
+
     }
 
-    
+    .material-symbols-outlined:hover ~ nav a{
+        display: inline;
+    }
 
 }
