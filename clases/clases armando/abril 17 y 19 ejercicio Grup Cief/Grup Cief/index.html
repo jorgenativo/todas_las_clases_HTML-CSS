@@ -11,7 +11,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./main.css">
-    <link rel="icon" href="./imágenes/favicon-16x16.png">
+    <link rel="icon" href="./imágenes/logos/favicon-16x16.png">
     <title>Grup Cief</title>
 
 <body>
@@ -20,14 +20,14 @@
         <header-top>
 
             <nav>
-                <ul>
+                <ul class="top">
                     <li><a href="https://cursosonline.grupcief.com/" target="_blank">Catálogo Formación Online</a></li>
                     <li><a href="https://elearning1.grupcief.com/campus/login"> Campus Virtual</a></li>
                     <li><a href="https://aulavirtual.grupcief.com/">Aula Virtual</a></li>
                     <li><a href="https://gestio.grupcief.com/Login.aspx?ReturnUrl=%2f">Management Training Platform</a>
                     </li>
                     <li><a href="https://seleccio.grupcief.com/">Procesos de selección</a></li>
-                    <select id="form-select" id="floatingSelect" aria-label="Floating label select example">
+                    <select id="form-select" id="floatingSelect" aria-label="Floating label select example" style="background-color: rgb(118, 98, 138); color: aliceblue; width: 70px;">
                         <option selected>ES</option>
                         <option value="1">CAT</option>
                     </select>
@@ -36,24 +36,33 @@
             </nav>
         </header-top>
         <header-bottom>
-            <nav>
-                <a href="./imágenes/logo grup.png">logo Grup Cief</a>
+           <img src="./imágenes/logos/logo grup.png" alt="logo">
+           
 
-                <ul>
-                    <li>Grup Cief</li>
-                    <li>Formación In Company</li>
-                    <li>Servicios Empresa</li>
-                    <li>Formación Subvencionada</li>
-                    <li>Tipología de Cursos</li>
-                    <li>Buscador de Cursos</li>
-                    <li>Actualidad</li>
-                    <li>Contacto</li>
+            <nav>
+                <ul class="primera">
+
+                    <select>Grup Cief</select>
+                        <ul class="unica">
+                            <li>Quiénes somos</li>
+                            <li>Las Personas</li>
+                            <li>Nuestras empresas cliente</li>
+                            <li>Acreditaciones</li>
+                        </ul>
+
+                        </select>
+                    </li>
+                    <li>FORMACIÓN IN COMPANY</li>
+                    <li>SERVICIOS EMPRESA</li>
+                    <li>FORMACIÓN SUBVENCIONADA</li>
+                    <li>ACTUALIDAD</li>
+                    <li>CONTACTO</li>
                 </ul>
             </nav>
         </header-bottom>
 
     </header>
-    <hr>
+    
     <main>
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
@@ -143,56 +152,59 @@
             </div>
             <div>
                 <img src="./imágenes/formación subvencionada/2desarrollo_aplicaciones_web_cercador.jpg"
-                alt="aplicaciones web">
+                    alt="aplicaciones web">
                 <span>SUBVENCIONADOS DESEMPLEADOS</span>
                 <a href="https://www.grupcief.com/especialidades/cp-desarrollo-aplicaciones-web"
                     target="_blank">aplicaciones web</a>
             </div>
             <div>
                 <img src="./imágenes/formación subvencionada/3Gestion_control_aprovisionamiento_cercador.jpg"
-                alt="aprovisionamiento"></a>
+                    alt="aprovisionamiento"></a>
                 <span>SUBVENCIONADOS DESEMPLEADOS</span>
                 <a href="https://www.grupcief.com/especialidades/cp-gestion-control-del-aprovisionamiento"
-                target="_blank">aprovisionamiento</a>
+                    target="_blank">aprovisionamiento</a>
             </div>
-        </div> 
-            <div>
-                <p>TODOS NUESTROS CURSOS EN ABIERTO</p>
-            </div>
-                            
- </main>
-
-    <footer>
+        </div>
         <div>
+            <p>TODOS NUESTROS CURSOS EN ABIERTO</p>
+        </div>
+
+    </main>
+
+    <footer class="completo">
+        <div class="uno">
             <img src="./imágenes/logos/logo grup.png" alt="tu partner">
             <img src="./imágenes/logos/30anys.png" alt="">
-            <p>CONTACTE CON NOSOTROS</p>
-            <hr>
+            
         </div>
-        <div><i class="bi bi-facebook"></i>
+        <p>CONTACTE CON NOSOTROS</p>
+            <hr>
+        <div class="dos">
+            <i class="bi bi-facebook"></i>
             <i class="bi bi-linkedin"></i>
-    
             <i class="bi bi-youtube"></i>
-            <i class="bi bi-instagram"></i></div>
-        <div>
+            <i class="bi bi-instagram"></i>
+            <address>Frances Tárrega</address>
             <address></address>
             <address></address>
-            <address></address>
-        </div> 
+        </div>
+        <div class="tres">
+            <a href="mailto.info@grupcief.com"></a>
+            <p>Cief</p>
+            <p>ORION</p>
+            <p>ACCIO</p>
+            <p>CET</p>
+            <p>LIQUIT</p>
+        </div>
+        <div class="cuatro">
+            <a href="#">Aviso Legal</a>
+            <a href="#">Política de Privacidad</a>
+            <p>Copyright 2023 - Todos los derechos reservados</p>
+            <img class="barra" src="./imágenes/barra_colors_UN.png" alt="arcoiris">
+        </div>
 
-        
     </footer>
 </body>
-<div>
-    <a href="mailto.info@grupcief.com"></a>
-    <p>Cief</p>
-    <p>ORION</p>
-    <p>ACCIO</p>
-    <p>CET</p>
-    <p>LIQUIT</p>
-    <a href="#">Aviso Legal</a>
-    <a href="#">Política de Privacidad</a>
-    <p>Copyright 2023 - Todos los derechos reservados</p>
-    <img src="./imágenes/barra_colors_UN.png" alt="arcoiris">
-</div>
+
+
 </html>

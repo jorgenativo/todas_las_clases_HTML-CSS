@@ -1,14 +1,14 @@
-.cajaRoja {
-    width: 100px;
-    height: 800px;
-    background-color: red;
-    
-}
 .caja{ 
     width: 100px;
     height: 50px;
     background-color: grey;
 
+}
+.cajaRoja {
+    width: 100px;
+    height: 800px;
+    background-color: red;
+    
 }
 .cajaFija {
     top: 100px;

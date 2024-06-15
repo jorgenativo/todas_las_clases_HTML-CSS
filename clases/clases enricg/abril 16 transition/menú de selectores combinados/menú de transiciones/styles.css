@@ -38,9 +38,9 @@ h1{
     left: -46px;
     opacity: 0; /* Ocultem el submenu */
     /* Propietats de transició */
-    transition-duration: .8s;
+    transition-duration: 3s;
     transition-timing-function: ease-in;
-    transition-delay: .8s;
+    transition-delay: 2s;
     
 }
 

@@ -12,15 +12,17 @@ h1, footer{
     background-color: yellow;
     width: 50px;
     height: 50px;
-    transition-duration: 3s;
-    transition-timing-function: ease-in;
-    transition-delay: 1s;
+    
 }
 
 .caja:hover{
+    cursor:progress;
     background-color: red;
     color: blue;
     transform: translateX(400px);
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
 }
 
 table{
@@ -38,6 +40,7 @@ td:last-child{
 }
 
 td:last-child:hover{
+    cursor: wait;
     opacity: 100;
     background-image: url(./imágenes/estrellita.gif);
     background-size:60%;

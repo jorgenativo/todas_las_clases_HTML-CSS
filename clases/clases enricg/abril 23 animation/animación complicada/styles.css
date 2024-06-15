@@ -27,6 +27,7 @@ main {
     animation-name: uno;
     animation-duration: 4s;
     animation-timing-function: linear;
+    animation-delay: 1s;
     left: 821px;
 }
 
@@ -34,6 +35,7 @@ main {
     animation-name: dos;
     animation-duration: 4s;
     animation-timing-function: linear;
+    animation-delay: 1s;
     right: 821px
 }
 

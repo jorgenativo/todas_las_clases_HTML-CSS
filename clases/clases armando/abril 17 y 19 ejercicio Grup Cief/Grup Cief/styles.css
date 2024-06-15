@@ -1,37 +1,104 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-
+* {
+   margin: 0;
+   box-sizing: border-box;
 }
-body{
+
+body {
     background-color: azure;
 }
-header{
-    text-decoration: none;
 
-}
-/* header top */
-ul{
+/*header top */
+header-top ul {
     display: flex; 
-    width: 100%;
-    height: 40px;
+    justify-content: end;
+    height: 45px;
+    cursor: pointer;
+    list-style: none; 
+    padding: 10px;
+    background-color: rgb(1, 109, 1);
+    margin-bottom: 35px;
+}
+
+header-top li a {
+    color: aliceblue;
+    text-decoration: none;
+    border-right: 1px solid white;
     margin: auto;
     padding: 8px;
-    background-color: darkolivegreen;
-    cursor: pointer;
-    justify-content: end;
+}
+
+.top li a:hover{
+    width: auto;
+    margin: auto;
+    padding: 8px;
+    background-color: rgb(49, 116, 49);
+}
+
+header-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.unica {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+.primera{
+    font-size: 20px;
+    color: rgb(129, 179, 162);
+    display: flex;
+    gap: 25px;
     list-style: none;
-
 }
-nav{
-    text-decoration: none;
 
+.primera li:hover{
+    cursor: pointer;
+    width: auto;
+    height: 45px;
+    background-color: rgb(49, 116, 49);
+    color: aliceblue;
 }
-a{ color:#ffffffbf;
-    text-decoration: none;
 
+img{
+    width: 100px;
 }
-li{
-    text-decoration: none;
 
+.completo{
+    color: #f0f9ff;
+    background-color: #282d32;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.uno{
+    vertical-align: middle;
+    border-style: none;
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dos{
+    display: flex;
+}
+
+.tres{
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra{
+    width: 100%;
+    height: 45px;
+    align-items: start;
+    display: flex;
 }

@@ -12,13 +12,9 @@ img{
 p{
     font-family: sans-serif;
 }
-.p-2 {
-    padding: 10px;
-        
-}
 
 header {
-
+    padding: 10px;
     border-bottom: 10px solid green;
 }
 
@@ -49,7 +45,7 @@ main {
     justify-content: space-around;
     
 }
-main p{
+main {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -66,5 +62,5 @@ footer {
 }
 
 footer i {
-    margin: 10px;
+    margin: 30px;
 }

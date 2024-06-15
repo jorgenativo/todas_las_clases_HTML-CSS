@@ -26,9 +26,9 @@ body {
 h2{
     text-align: center;
 }
+
 .item {
     margin: 10px;
-    
 }
 
 a{
@@ -36,10 +36,8 @@ a{
     list-style: none;
     text-decoration: none;
     margin: 50px;
-    
-    
-    
 }
+
 a:hover{
     color: black;
 }
@@ -52,16 +50,12 @@ header {
     background-color: blue;
     grid-area: cabecera;
     width: 100%;
-   
-   
 }
 
 nav {
     background-color: blueviolet;
     grid-area: menú;
     height: 100%;
-    
-    
 }
 
 main {
