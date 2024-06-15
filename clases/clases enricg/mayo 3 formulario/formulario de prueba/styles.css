@@ -16,10 +16,7 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
 }
-.contenedor{
-    
-    
-}
+
 .tarjeta{
     background-color: cornsilk;
     width: 300px;
