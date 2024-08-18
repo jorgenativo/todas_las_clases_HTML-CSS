@@ -13,6 +13,7 @@
 .cajaFija {
     top: 100px;
     position: fixed;
+    background-color: aqua;
 }
 
 .cajaRelativa {
