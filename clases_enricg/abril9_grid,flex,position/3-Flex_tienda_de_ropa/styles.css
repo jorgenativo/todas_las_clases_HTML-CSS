@@ -15,8 +15,7 @@ header {
     align-items: end;
     padding: 5px;
     background-color: coral;
-    margin-left: 10px;
-    margin-right: 10px;
+    
 }
 
 #logo {
@@ -35,7 +34,6 @@ img {
 aside {
     background-color: darksalmon;
     width: 150px;
-    height: 285px;
     padding: 30px;
     margin: 10px;
 }
@@ -44,13 +42,17 @@ a {
     padding: 5px;
     list-style: none;
     color: brown;
+    text-decoration: none;
+ }
+a:hover{
+    color: azure;
 }
 
 main {
     background-color: rgba(202, 86, 44, 0.829);
-    width: 90%;
+    width: 87%;
     margin-top: -295px;
-    margin-left: 170px;
+   margin-left: 170px;
 }
 
 article {

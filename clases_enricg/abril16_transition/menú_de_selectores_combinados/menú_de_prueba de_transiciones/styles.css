@@ -15,28 +15,21 @@ nav {
     border-bottom: 2px solid ;
     border-left: 6px solid bisque;
 }
-.item a {
-    display: inline-block;
-    text-decoration: none;
-    color:floralwhite;
-    padding: 16px;
-    width: 100% - 32px;
-}
 .item:hover {
     background-color:bisque;
 }
-.item > .menu {
+.item > ul {
     display: none;
     position: absolute;
     top: 0px;
     left: 184px;
 }
-.item .item {
+.item li {
     width: 230px;
     border-left: 6px solid bisque;
 
 }
-.item:hover > .menu {
+.item:hover ul {
     display: block;
 }
 .container{
@@ -46,7 +39,7 @@ nav {
 }
 
 .caja{
-    background-color: yellow;
+    background-color: RED;
     width: 100px;
     height: 100px;
     transition-delay: 1s;
@@ -55,7 +48,7 @@ nav {
 }
 
 .caja:hover{
-    background-color: red;
+    background-color:yellow;
     color: blue;
     transform: translateX(400px);
 }

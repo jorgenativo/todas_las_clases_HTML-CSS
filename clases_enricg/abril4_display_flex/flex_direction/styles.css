@@ -3,6 +3,7 @@
     width: 500px;
     height: 500px;
     display: flex;
+    
     background-color: aqua;
 }
 
@@ -14,6 +15,7 @@
 }
 
 .caja1 {
+    
     background-color: gold;
 }
 
