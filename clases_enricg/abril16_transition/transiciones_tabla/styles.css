@@ -2,29 +2,6 @@ h1, footer{
     text-align: center;
 }
 
-.container{
-    border: 1px solid black;
-    width: 600px;
-    height: 100%;
-}
-
-.caja{
-    background-color: yellow;
-    width: 50px;
-    height: 50px;
-    
-}
-
-.caja:hover{
-    cursor:progress;
-    background-color: red;
-    color: blue;
-    transform: translateX(400px);
-    transition-duration: 3s;
-    transition-timing-function: ease-in;
-    transition-delay: 1s;
-}
-
 table{
     text-align: center;
 }

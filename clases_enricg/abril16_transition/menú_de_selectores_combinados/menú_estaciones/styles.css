@@ -13,7 +13,6 @@ h1{
     display: inline;
 }
 
-
 .item {
     display: block;
     position: relative;
@@ -53,7 +52,7 @@ h1{
 }
 
 .item:hover {
-    background-color: burlywood;
+    background-color:burlywood;
     cursor: pointer;
 }
 
