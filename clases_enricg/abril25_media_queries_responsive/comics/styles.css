@@ -62,9 +62,12 @@ nav {
 
 .material-symbols-outlined {
     display: none;
-}
+} 
 
-/* Query media */
+ /* Query media */
+
+
+
 @media screen and (min-width:360px) and (max-width:640px) {
     nav {
         display: none;
@@ -77,12 +80,12 @@ nav {
 
     }
 
-    .material-symbols-outlined:hover  + nav   {
-        display: block;
+    .material-symbols-outlined:hover + nav   {
+       display: block;
         width: 100px;
-        height: 50px;
+        height: 15px;
         margin-right: 500px;
-        margin-top: 40px;
+        margin-top: 5px;
         font-size: small;
        
     }

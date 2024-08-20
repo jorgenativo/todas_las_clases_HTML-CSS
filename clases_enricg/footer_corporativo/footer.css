@@ -36,12 +36,12 @@ footer {
 
 .cajaIzq {
     animation-name: uno;
-    left: 450px;
+    left: 410px;
 }
 
 .cajaDer {
     animation-name: dos;
-    right: 450px
+    right: 410px
 }
 
 .caja {

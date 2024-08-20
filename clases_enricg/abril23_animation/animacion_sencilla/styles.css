@@ -38,6 +38,6 @@ main{
         transform: scale(1);
         left:0px;
         background-color: blue;
-        transform: rotate(45deg);
+        transform: rotate(180deg);
     }
 }

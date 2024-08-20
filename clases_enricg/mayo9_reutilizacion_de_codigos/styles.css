@@ -1,4 +1,4 @@
-.hover-nav ul {
+/* .hover-nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -35,7 +35,7 @@
   li a:hover::before,
   li a:focus::before {
     transform: scale(1);
-  }
+  } */
   body{
     background-color: aqua;
   }

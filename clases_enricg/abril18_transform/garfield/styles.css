@@ -10,6 +10,14 @@ main {
     background-color:darkgrey;
    
 }
+.botón {
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(231, 176, 74);
+    border-radius: 30px;
+}
 
 .tarjeta {
     width: 300px;
@@ -21,7 +29,6 @@ main {
     background-color: khaki;
     border-radius: 30px;
 }
-
 .caja {
     width: 100px;
     height: 100px;
@@ -32,18 +39,8 @@ main {
 img {
     width: 100%;
 }
-
-.botón {
-    height: 40px;
-    width: 300px;
-    text-align: center;
-    border: 1px solid black;
-    background-color: rgb(231, 176, 74);
-    border-radius: 30px;
-}
-
-/* Transformaciones */
 /* Traslate */
+/* Transformaciones */
 
 .translate:hover ~ .tarjeta .caja {
     transform: translate(50px, 50px);
